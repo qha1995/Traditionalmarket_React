@@ -1,0 +1,136 @@
+.Subpage {
+
+    .sub {
+        display: flex;
+
+        ul {
+            width: 260px;
+            border-right: 1px solid #ddd;
+            min-height: 954px;
+            padding: 50px 20px 0 20px;
+
+            li {
+                border-bottom: 1px solid #ddd;
+                font-size: 15px;
+                line-height: 1.8;
+            }
+        }
+
+        aside {}
+
+        article {
+            flex: 1;
+            padding: 50px 50px 100px 0;
+        }
+    }
+
+    .nav__bar {
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        background: #f4f4f4;
+        text-align: right;
+        line-height: 40px;
+    }
+
+}
+
+.aside__lnb {
+    font-size: 15px;
+    font-weight: 500;
+
+    margin: 0 auto;
+
+    ul {
+        display: flex;
+
+
+        li {
+            flex: 1;
+            line-height: 45px;
+
+
+
+            a {
+                padding: 0 15px;
+                display: block;
+                border-bottom: 1px solid #ddd;
+
+                &::before {
+                    content: "\e93e";
+                    font-family: xeicon;
+                    font-size: 8px;
+                    vertical-align: middle;
+                    margin: 0 15px 0 0;
+                }
+
+                &.active {
+
+                    color: #fff;
+                    background: #084298;
+                    border-bottom: 1px solid transparent;
+                }
+
+            }
+
+        }
+    }
+
+}
+
+.aside__customer {
+    text-align: right;
+
+    img {}
+
+    p {
+        text-align: end;
+    }
+
+    strong {
+        font-size: 17px;
+        font-weight: 700;
+
+
+    }
+
+
+}
+
+
+.Article {
+
+
+
+
+
+
+    .tit {
+        line-height: 45px;
+        border-bottom: 1px solid #ddd;
+        margin: 0 0 50px 0;
+
+        strong {
+            font-size: 20px;
+            font-weight: 500;
+            padding: 0 0 0 20px;
+        }
+    }
+
+
+
+}
+
+
+.Footer {
+    border-top: 1px solid #ddd;
+    padding: 50px 0;
+    text-align: center;
+    background: #f4f4f4;
+    line-height: 22px;
+    font-size: 15px;
+
+    li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+}

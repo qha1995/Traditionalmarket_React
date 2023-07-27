@@ -1,0 +1,98 @@
+.Subpage .sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Subpage .sub ul {
+  width: 260px;
+  border-right: 1px solid #ddd;
+  min-height: 954px;
+  padding: 50px 20px 0 20px;
+}
+.Subpage .sub ul li {
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+  line-height: 1.8;
+}
+.Subpage .sub article {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 50px 50px 100px 0;
+}
+.Subpage .nav__bar {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background: #f4f4f4;
+  text-align: right;
+  line-height: 40px;
+}
+
+.aside__lnb {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 auto;
+}
+.aside__lnb ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.aside__lnb ul li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  line-height: 45px;
+}
+.aside__lnb ul li a {
+  padding: 0 15px;
+  display: block;
+  border-bottom: 1px solid #ddd;
+}
+.aside__lnb ul li a::before {
+  content: "\e93e";
+  font-family: xeicon;
+  font-size: 8px;
+  vertical-align: middle;
+  margin: 0 15px 0 0;
+}
+.aside__lnb ul li a.active {
+  color: #fff;
+  background: #084298;
+  border-bottom: 1px solid transparent;
+}
+
+.aside__customer {
+  text-align: right;
+}
+.aside__customer p {
+  text-align: end;
+}
+.aside__customer strong {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.Article .tit {
+  line-height: 45px;
+  border-bottom: 1px solid #ddd;
+  margin: 0 0 50px 0;
+}
+.Article .tit strong {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 0 0 20px;
+}
+
+.Footer {
+  border-top: 1px solid #ddd;
+  padding: 50px 0;
+  text-align: center;
+  background: #f4f4f4;
+  line-height: 22px;
+  font-size: 15px;
+}
+.Footer li {
+  display: inline-block;
+  margin: 0 5px;
+}
